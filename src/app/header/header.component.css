@@ -6,14 +6,14 @@
 }
 
 .xBits-image {
-  background: url("./../../assets/images/xBits.png");
+  background: url("./../../assets/images/xBits.svg");
   height: 10px;
   width: 16px;
   display: inline-block;
 }
 
 .crown-icon {
-  background: url("./../../assets/images/crown.png");
+  background: url("./../../assets/images/crown.svg");
   display: inline-block;
   margin-left: 6px;
   width: 14px;
@@ -37,7 +37,7 @@
 }
 
 .add-friend {
-  background: url("./../../assets/images/addFriend.png");
+  background: url("./../../assets/images/addFriend.svg");
   height: 17px;
   width: 19px;
   margin-top: 9px;
