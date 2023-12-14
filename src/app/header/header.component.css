@@ -1,0 +1,48 @@
+.user-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  line-height: 14px;
+}
+
+.xBits-image {
+  background: url("./../../assets/images/xBits.png");
+  height: 10px;
+  width: 16px;
+  display: inline-block;
+}
+
+.crown-icon {
+  background: url("./../../assets/images/crown.png");
+  display: inline-block;
+  margin-left: 6px;
+  width: 14px;
+  height: 10px;
+}
+
+.crowns-number {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+  display: inline-block;
+  color: white;
+}
+
+.xBits {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.add-friend {
+  background: url("./../../assets/images/addFriend.png");
+  height: 17px;
+  width: 19px;
+  margin-top: 9px;
+}
+
+.user-icon {
+  margin-right: 10px;
+}
