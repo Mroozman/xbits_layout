@@ -1,0 +1,177 @@
+.challenge-box {
+  height: 77px;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 237, 186, 0.001) 0%,
+    rgba(84, 255, 174, 0.2) 100%
+  );
+  border-radius: 8px;
+  position: relative;
+}
+
+.challenge-box-red {
+  height: 77px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 111, 111, 0) 0%,
+    rgba(255, 111, 111, 0.2)
+  );
+  border-radius: 8px;
+  position: relative;
+}
+
+.challenge-box-wrap {
+  height: 77px;
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.place-color {
+  height: 77px;
+  width: 55px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 165, 234, 0.3) 0%,
+    rgba(255, 230, 0, 0.3) 100%
+  );
+  z-index: 2;
+  position: relative;
+}
+
+.place-color-2 {
+  height: 77px;
+  width: 55px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 255, 209, 0.3) 0%,
+    rgba(255, 0, 229, 0.3) 100%
+  );
+  z-index: 2;
+  position: relative;
+}
+
+.place-color-wrap {
+  background-color: #fff;
+  height: 77px;
+  width: 55px;
+  left: 100px;
+  top: 100px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.place {
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  left: -10px;
+  opacity: 20%;
+}
+
+.place-number {
+  color: #0b254d;
+  font-size: 33px;
+  font-weight: 600;
+  font-style: italic;
+  display: inline;
+  right: 5px;
+}
+
+.place-number-affix {
+  color: #0b254d;
+  font-size: 23px;
+  font-weight: 600;
+  font-style: italic;
+  display: inline;
+  position: absolute;
+  left: 35px;
+  top: -5px;
+}
+
+.roger-korsgaard {
+  background: url("./../../../assets/images/Roger_Korsgaard.svg");
+  height: 41px;
+  width: 49px;
+  z-index: 0;
+  position: absolute;
+  top: 18px;
+  left: 11px;
+}
+
+.challenger-name {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  top: 8px;
+  left: 72px;
+}
+
+.check-icon {
+  margin-bottom: 2px;
+}
+
+.alerts {
+  position: absolute;
+  top: 34px;
+  left: 72px;
+}
+
+.win-rate {
+  position: absolute;
+  top: 34px;
+  left: 110px;
+}
+
+.yield {
+  position: absolute;
+  top: 34px;
+  left: 164px;
+}
+
+.difference {
+  position: absolute;
+  top: 34px;
+  left: 310px;
+  color: #88ffc7;
+}
+
+.difference-red {
+  position: absolute;
+  top: 34px;
+  left: 310px;
+  color: #ff6f6f;
+}
+
+.state-number {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+
+.state-string {
+  color: white;
+  opacity: 50%;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.cash-difference {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cash-percent {
+  margin: 0px;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: end;
+}

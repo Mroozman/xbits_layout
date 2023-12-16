@@ -1,3 +1,4 @@
+<app-add-competition-button></app-add-competition-button>
 <div class="container" style="margin-top: 10px">
   <app-header></app-header>
   <div class="row">
@@ -5,5 +6,18 @@
       <h4 class="competitions">Competitions</h4>
     </div>
   </div>
-  <app-competition></app-competition>
+  <div style="margin-bottom: 15px">
+    <app-competition
+      [title]="'Weekly Challenges'"
+      [challengersData]="challengersData"
+      [canJoin]="true"
+    ></app-competition>
+  </div>
+  <div>
+    <app-competition
+      [title]="'Double Gain Week Contest'"
+      [challengersData]="challengersData2"
+      [canJoin]="false"
+    ></app-competition>
+  </div>
 </div>

@@ -3,4 +3,9 @@
   font-weight: 600;
   color: #fff;
   opacity: 50%;
+  margin-bottom: 34px;
+  border: solid 0.5px transparent;
 }
+
+/* tło :  */
+/* background: linear-gradient(270deg, #087AFF 38.5%, #A3FFE3 98.16%); */

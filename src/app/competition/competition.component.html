@@ -5,11 +5,56 @@
         <div class="col-4 offset-5">
           <app-participatns></app-participatns>
         </div>
-        <div class="col-3 too-late-text">Too late to join</div>
+        <div *ngIf="canJoin" class="col-3 too-late-text">Too late to join</div>
       </div>
       <div class="row">
         <div class="col-12">
-          <h4 class="weekly-challenges-text">Weekly Challenges</h4>
+          <h4 class="weekly-challenges-text">{{ title }}</h4>
+        </div>
+      </div>
+      <div class="row">
+        <app-challenge
+          class="challenge"
+          *ngFor="let challenger of challengersData; let i = index"
+          [name]="challenger.name"
+          [difference]="challenger.difference"
+          [differencePercent]="challenger.differencePercent"
+          [challengerImage]="challenger.image"
+          [number]="i + 1"
+          [checked]="challenger.checked"
+        ></app-challenge>
+      </div>
+      <div class="row" style="margin: 15px 0px">
+        <div class="col-1">
+          <img class="roger" src="./../../assets/images/Roger.svg" />
+        </div>
+        <div class="col-1">
+          <h4 class="roger-name" style="width: 40px">Roger K</h4>
+          <h5 class="roger-email">@rog13k</h5>
+        </div>
+        <div class="col-1" style="margin-left: 10px">
+          <img
+            class="xbits-circle"
+            src="./../../assets/images/xBits_circle.svg"
+          />
+        </div>
+        <div class="col-6">
+          <h4 class="xbits-amout-text">20,000</h4>
+          <h5 class="xbits-prize-text">@xBits prize</h5>
+        </div>
+        <div class="col-1">
+          <img class="days-circle" src="./../../assets/images/days.svg" />
+        </div>
+        <div class="col-1">
+          <h4 class="days-text">Days</h4>
+          <h5 class="past-text">past</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="view-button-wrap">
+            <button class="view-button">VIEW</button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,11 +1,12 @@
 .competition-box {
-  background: #14171a;
+  background-color: rgb(20, 23, 26);
   width: 100%;
   height: 100%;
   border-radius: 20px;
   border: 0.5px solid #ffffff33;
   padding: 16px 15px;
   position: relative;
+  z-index: 1;
 }
 
 .weekly-challenges-text {
@@ -13,7 +14,8 @@
   font-weight: 500;
   color: #fff;
   opacity: 50%;
-  padding-top: 49px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .too-late-text {
@@ -21,4 +23,96 @@
   opacity: 50%;
   font-size: 10px;
   font-weight: 400;
+}
+
+.challenge {
+  margin: 5px 0px;
+}
+
+.roger {
+  width: 24px;
+  height: 24px;
+  display: inline;
+}
+
+.roger-name {
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  display: block;
+  margin: 0;
+}
+
+.roger-email {
+  color: white;
+  opacity: 50%;
+  font-size: 8px;
+  font-weight: 400;
+  display: block;
+  margin: 0;
+}
+
+.xbits-circle {
+  width: 24px;
+  height: 24px;
+  display: inline;
+}
+
+.xbits-amout-text {
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.xbits-prize-text {
+  color: white;
+  opacity: 50%;
+  font-size: 8px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.days-circle {
+  width: 24px;
+  height: 24px;
+}
+
+.days-text {
+  color: #ff6f6f;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.past-text {
+  color: #ff6f6f;
+  font-size: 8px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.view-button-wrap {
+  background-color: #fff;
+  width: 100%;
+  height: 47;
+  border: 0.5 solid #fff;
+  border-radius: 15px;
+}
+
+.view-button {
+  color: white;
+  width: 100%;
+  height: 47px;
+  opacity: 90%;
+  background-color: #14171a;
+  border: 0.5px solid #ffffff33;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  transition: background-color 0.5s;
+  transition: border 0.5s;
+}
+
+.view-button:hover {
+  background-color: #25282b;
+  border: 0.5px solid #eee;
 }

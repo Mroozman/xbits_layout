@@ -1,0 +1,49 @@
+<div class="col-12">
+  <div class="challenge-box-wrap">
+    <div [ngClass]="number <= 2 ? 'challenge-box' : 'challenge-box-red'">
+      <div class="place-color-wrap">
+        <div
+          [ngClass]="number === 2 ? 'place-color-2' : 'place-color'"
+          class="place-color"
+        >
+          <div class="place">
+            <p class="place-number">{{ number }}</p>
+            <p class="place-number-affix" p>{{ numberLetters }}</p>
+          </div>
+          <img src="{{ challengerImage }}" class="roger-korsgaard" />
+        </div>
+      </div>
+      <div class="col-12">
+        <h4 class="challenger-name">
+          {{ name }}
+          <img
+            *ngIf="checked ? true : false"
+            class="check-icon"
+            src="./../../../assets/images/check.svg"
+          />
+        </h4>
+      </div>
+      <div class="col-12">
+        <div class="alerts">
+          <p class="state-number">20</p>
+          <p class="state-string">Alerts</p>
+        </div>
+        <div class="win-rate">
+          <p class="state-number">85%</p>
+          <p class="state-string">Win Rate</p>
+        </div>
+        <div class="yield">
+          <p class="state-number">11%</p>
+          <p class="state-string">Yield</p>
+        </div>
+        <div
+          [ngClass]="getDifference() ? 'difference' : 'difference-red'"
+          class="difference"
+        >
+          <p class="cash-difference">{{ difference }}</p>
+          <p class="cash-percent">{{ differencePercent }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
